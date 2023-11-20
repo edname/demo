@@ -1,0 +1,9 @@
+<h1>Hello</h1>
+
+<p><%= @time %></p>
+
+<p><%= 1.hour.from_now.localtime %></p>
+
+<% @files.each do |file| %>
+    <%= file %><br>
+<% end %>
